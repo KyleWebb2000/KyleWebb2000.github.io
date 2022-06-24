@@ -178,6 +178,18 @@ header {
   cursor: pointer;
 }
 
+@media (max-width: 600px){
+ header{
+   position: absolute;
+ }
+}
+
+@media (max-width: 600px){
+  .nav-item {
+    margin-right: 0;
+  }
+}
+
 /*     Intro section    */
 
 .intro{
@@ -315,7 +327,7 @@ header {
 
 @media (max-width: 480px){
   .about-me--img {
-    width: 200px;
+    width: 80%;
   }
 }
 /* Footer */
