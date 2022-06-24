@@ -131,7 +131,7 @@ h3{font-size: var(--fs-h3)}
 
 /*   Header     */
 
-@media (max-width: 500px){
+@media (max-width: 600px){
  .nav-list{
    flex-direction: column;
    text-align: center;
@@ -184,7 +184,7 @@ header {
   margin-bottom: -74px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
   .intro{
     padding-top:  200px;
   }
@@ -309,13 +309,13 @@ header {
 
 @media (max-width: 800px){
   .about-me--img {
-    height: 300px;
+    width: 600px;
   }
 }
 
 @media (max-width: 480px){
   .about-me--img {
-    height: 250px;
+    width: 200px;
   }
 }
 /* Footer */
