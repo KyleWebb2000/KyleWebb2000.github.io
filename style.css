@@ -130,10 +130,19 @@ h3{font-size: var(--fs-h3)}
 
 
 /*   Header     */
+
+@media (max-width: 500px){
+ .nav-list{
+   flex-direction: column;
+   text-align: center;
+ }
+}
+
 header {
   position: fixed;
   width: 100%;
   z-index: 3;
+  top: 0;
 }
 
 .nav-list {
@@ -168,10 +177,17 @@ header {
   border-bottom: 2px solid var(--clr-accent);
   cursor: pointer;
 }
+
 /*     Intro section    */
 
 .intro{
   margin-bottom: -74px;
+}
+
+@media(max-width: 500px){
+  .intro{
+    padding-top:  200px;
+  }
 }
 
 /*    My Skills   */
@@ -291,6 +307,17 @@ header {
   opacity: .5;
 }
 
+@media (max-width: 800px){
+  .about-me--img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px){
+  .about-me--img {
+    height: 250px;
+  }
+}
 /* Footer */
 
 footer {
