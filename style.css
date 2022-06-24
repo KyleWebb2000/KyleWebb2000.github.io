@@ -170,37 +170,9 @@ header {
 }
 /*     Intro section    */
 
-/* .intro{
-  position: relative;
-  padding-top: 160px;
-} */
-
-@media (min-width: 800px) {
-  /* .intro {
-      display: grid;
-      width: min-content;
-      margin: 0 auto;
-      grid-column-gap: 1em;
-      grid-template-areas:
-          "img title"
-          "img subtitle" ;
-      grid-template-columns: min-content max-content;
-  } */
-
-
-  /* .section-subtitle--intro {
-      align-self: start;
-      grid-column: -1 / 1;
-      grid-row: 2;
-      text-align: right;
-      position: relative;
-      left: -1.5em;
-      width: calc(100% + 1.5em);
-  } */
+.intro{
+  margin-bottom: -75px;
 }
-
-
-
 
 /*    My Skills   */
 
@@ -232,6 +204,7 @@ header {
   margin-bottom: 4em;
   border-left: 2px solid var(--clr-accent);
   border-right: 2px solid var(--clr-accent);
+  padding: 1%;
 }
 
 .skill {
