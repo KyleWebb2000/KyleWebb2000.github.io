@@ -151,6 +151,7 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .nav-item {
@@ -196,6 +197,12 @@ header {
   margin-bottom: -74px;
 }
 
+.intro-container{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media(max-width: 600px){
   .intro{
     padding-top:  200px;
@@ -232,7 +239,7 @@ header {
   margin-bottom: 4em;
   border-left: 2px solid var(--clr-accent);
   border-right: 2px solid var(--clr-accent);
-  padding: 7.5%;
+  padding: 3.5%;
 }
 
 .skill {
@@ -246,10 +253,10 @@ h3{
   color: var(--clr-accent);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .skills{
     display: flex;
-    max-width: 1000px;
+    max-width: 1280px;
     margin: 0 auto;
   }
 
@@ -261,7 +268,7 @@ h3{
 /* About Me */
 
 .about-me {
-  max-width: 1000px;
+  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
 }
